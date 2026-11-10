@@ -66,7 +66,6 @@ export const projects: Project[] = [
     description:
       "Taste-based social platform for restaurants, cafés and bars. One API-first backend that will serve both the Flutter app and the Next.js web client.",
     tech: ["FastAPI", "PostgreSQL + PostGIS", "SQLAlchemy (async)", "Redis", "Docker", "GitHub Actions"],
-    // TODO: mimari notlar linki olunca ekle
-    links: [],
+    links: [{ label: "Code", href: "https://github.com/oburapp" }],
   },
 ];
