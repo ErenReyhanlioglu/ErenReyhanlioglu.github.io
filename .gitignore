@@ -2,7 +2,13 @@
 Thumbs.db
 .vscode/
 .venv/
+
+# Node / Vite
 node_modules/
+dist/
+*.local
+*.tsbuildinfo
+npm-debug.log*
 
 # Design mockups (local only)
 mock-design/

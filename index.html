@@ -1,281 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mehmet Eren Reyhanlıoğlu · AI / ML Engineer</title>
-  <meta name="description" content="Mehmet Eren Reyhanlıoğlu, AI / ML engineer. End-to-end ML systems: data pipelines, model training, LLM agents, retrieval and deployed APIs.">
-  <meta name="author" content="Mehmet Eren Reyhanlıoğlu">
-  <meta name="theme-color" content="#FAFAF8">
-  <link rel="canonical" href="https://erenreyhanlioglu.github.io/">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mehmet Eren Reyhanlıoğlu | AI / ML Engineer</title>
+    <meta name="description" content="Mehmet Eren Reyhanlıoğlu, AI / ML engineer building end-to-end ML systems: data pipelines, model training, LLM agents, retrieval and deployed APIs." />
+    <meta name="author" content="Mehmet Eren Reyhanlıoğlu" />
+    <meta name="theme-color" content="#212121" />
+    <link rel="canonical" href="https://erenreyhanlioglu.github.io/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-  <!-- Open Graph: link paylaşıldığında görünen önizleme -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://erenreyhanlioglu.github.io/">
-  <meta property="og:title" content="Mehmet Eren Reyhanlıoğlu · AI / ML Engineer">
-  <meta property="og:description" content="End-to-end ML systems: data pipelines, model training, LLM agents, retrieval and deployed APIs.">
-  <!-- TODO: 1200x630 bir paylaşım görseli ekleyince aç
-  <meta property="og:image" content="https://erenreyhanlioglu.github.io/assets/img/og-image.png">
-  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://erenreyhanlioglu.github.io/" />
+    <meta property="og:site_name" content="Mehmet Eren Reyhanlıoğlu" />
+    <meta property="og:title" content="Mehmet Eren Reyhanlıoğlu | AI / ML Engineer" />
+    <meta property="og:description" content="End-to-end ML systems: data pipelines, model training, LLM agents, retrieval and deployed APIs." />
+    <meta property="og:locale" content="en_US" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <!-- Styles (sıra önemli: tokens → base → layout → components) -->
-  <link rel="stylesheet" href="assets/css/tokens.css">
-  <link rel="stylesheet" href="assets/css/base.css">
-  <link rel="stylesheet" href="assets/css/layout.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Mehmet Eren Reyhanlıoğlu",
-    "jobTitle": "AI / ML Engineer",
-    "url": "https://erenreyhanlioglu.github.io/",
-    "email": "mailto:merenr.oglu@gmail.com",
-    "telephone": "+905551608874",
-    "sameAs": [
-      "https://github.com/ErenReyhanlioglu",
-      "https://www.linkedin.com/in/eren-reyhanl%C4%B1o%C4%9Flu/",
-      "https://orcid.org/0009-0006-8842-1193",
-      "https://huggingface.co/MehmetErenn0",
-      "https://scholar.google.com/citations?user=hQt6mYQAAAAJ"
-    ]
-  }
-  </script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <div class="container">
-
-    <header class="site-header">
-      <a class="site-header__brand" href="#top">eren.reyhanlioglu</a>
-      <nav class="site-nav" aria-label="Sections">
-        <a href="#work">Work</a>
-        <a href="#research">Publications</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main id="main">
-
-      <!-- ===================================================== HERO -->
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <p class="hero__eyebrow">AI / ML Engineer · Computer Engineer</p>
-        <h1 class="hero__title" id="hero-title">Mehmet Eren Reyhanlıoğlu</h1>
-        <p class="hero__lead">I build ML systems that run end to end, from data pipelines and model training to deployed APIs with monitoring. Recent work covers LLM agents, retrieval, credit risk modelling and audio research.</p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="https://github.com/ErenReyhanlioglu">GitHub</a>
-          <a class="btn" href="https://www.linkedin.com/in/eren-reyhanl%C4%B1o%C4%9Flu/">LinkedIn</a>
-          <a class="btn" href="https://orcid.org/0009-0006-8842-1193">ORCID</a>
-          <a class="btn" href="https://huggingface.co/MehmetErenn0">Hugging Face</a>
-          <a class="btn" href="mailto:merenr.oglu@gmail.com">merenr.oglu@gmail.com</a>
-        </div>
-      </section>
-
-      <!-- ===================================================== WORK
-           Yeni proje eklemek için bir <article class="card"> bloğunu
-           kopyala. Durum etiketi: badge--live | --demo | --internship |
-           --research | --progress. Tam satır için card--wide ekle. -->
-      <section class="section" id="work" aria-labelledby="work-title">
-        <div class="section__header">
-          <h2 class="section__title" id="work-title">Selected work</h2>
-        </div>
-
-        <!-- Öne çıkan proje -->
-        <article class="card card--featured">
-          <div class="card__body">
-            <div class="card__meta">
-              <span class="card__category">Data &amp; AI engineering</span>
-              <span class="badge badge--live">Live</span>
-            </div>
-            <h3 class="card__title">TraceMail</h3>
-            <p class="card__text">A pipeline that reads my own inbox every day, extracts job alerts and application updates, scores each posting against my profile with Gemini and tracks every application to its current stage.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>Airflow</li><li>BigQuery</li><li>dbt</li><li>Vertex AI</li><li>FastAPI</li><li>Next.js</li><li>MLflow</li>
-            </ul>
-            <div class="card__links">
-              <a href="https://tracemail.com.tr">tracemail.com.tr <span aria-hidden="true">↗</span></a>
-              <a href="https://github.com/ErenReyhanlioglu/tracemail">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-          <!-- TODO: assets/img/projects/tracemail.webp ekleyince aşağıdaki div yerine şunu kullan:
-          <figure class="card__media">
-            <img src="assets/img/projects/tracemail.webp" alt="TraceMail public health dashboard" width="960" height="600" loading="lazy">
-          </figure>
-          -->
-          <div class="card__media">[Screenshot of the public health panel]</div>
-        </article>
-
-        <div class="project-grid">
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">Agents · Finance</span>
-              <span class="badge badge--demo">Demo</span>
-            </div>
-            <h3 class="card__title">FraudLens</h3>
-            <p class="card__text">Multi-agent AML investigation: an XGBoost detector flags transactions, LangGraph agents explain them with SHAP and cite BDDK and FATF rules through RAG.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>XGBoost</li><li>LangGraph</li><li>SHAP</li><li>MLflow</li><li>Docker</li>
-            </ul>
-            <div class="card__links">
-              <!-- TODO: <a href="DEMO-URL">Live demo <span aria-hidden="true">↗</span></a> -->
-              <a href="https://github.com/ErenReyhanlioglu/fraudlens">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">LLM · Retrieval</span>
-            </div>
-            <h3 class="card__title">Review Radar</h3>
-            <p class="card__text">Review analytics platform over Apollo.io’s G2 reviews: reviews are indexed in Qdrant and product questions are answered through Claude tool calling.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>FastAPI</li><li>React</li><li>TypeScript</li><li>Qdrant</li><li>PostgreSQL</li><li>Claude API</li>
-            </ul>
-            <div class="card__links">
-              <a href="https://github.com/ErenReyhanlioglu/review-radar">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">Search · Retrieval</span>
-              <span class="badge badge--internship">Internship</span>
-            </div>
-            <h3 class="card__title">SeekBind</h3>
-            <p class="card__text">Natural-language service search and appointment suggestions for the DateBind platform, built at TechBind Solutions. Hybrid search on Qdrant, evaluated with RAGAS ablations, shipped with CI, 99% test coverage and strict type checking.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>FastAPI</li><li>Qdrant</li><li>PostgreSQL</li><li>Redis</li><li>RAGAS</li>
-            </ul>
-            <div class="card__links">
-              <!-- TODO: <a href="WRITE-UP-URL">Write-up <span aria-hidden="true">↗</span></a> -->
-              <a href="https://github.com/ErenReyhanlioglu/seekbind">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">Audio · Deep learning</span>
-              <span class="badge badge--research">Research</span>
-            </div>
-            <h3 class="card__title">Guitar Tablature Transcription</h3>
-            <p class="card__text">Cascaded multi-task model fusing HCQT and Mel representations to transcribe guitar audio into tablature. Started during my internship and carried on as a funded research project.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>Python</li><li>HCQT</li><li>Mel spectrogram</li><li>Multi-task learning</li>
-            </ul>
-            <div class="card__links">
-              <a href="https://github.com/ErenReyhanlioglu/Guitar-Transcription">Code <span aria-hidden="true">↗</span></a>
-              <a href="https://github.com/ErenReyhanlioglu/Guitar-Transcription-Weights">Weights <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">Data science · Credit risk</span>
-            </div>
-            <h3 class="card__title">Credit Risk Scorecard</h3>
-            <p class="card__text">Basel-style PD scorecard on Home Credit data: seven tables merged to customer level, 434 features reduced to 39 with WoE/IV and VIF checks.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>Python</li><li>SQL</li><li>Pandas</li><li>Logistic regression</li><li>WoE/IV</li>
-            </ul>
-            <div class="card__links">
-              <a href="https://github.com/ErenReyhanlioglu/Credit_Risk_Analysis">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__meta">
-              <span class="card__category">Computer vision · Real time</span>
-            </div>
-            <h3 class="card__title">TID Realtime</h3>
-            <p class="card__text">Webcam recognition of 30 Turkish Sign Language words with MediaPipe Holistic landmarks and a BiLSTM with masked attention.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>Python</li><li>MediaPipe Holistic</li><li>BiLSTM</li><li>Attention</li>
-            </ul>
-            <div class="card__links">
-              <a href="https://github.com/ErenReyhanlioglu/tid_realtime">Code <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="card card--wide">
-            <div class="card__meta">
-              <span class="card__category">Backend</span>
-              <span class="badge badge--progress">In progress</span>
-            </div>
-            <h3 class="card__title">Obur</h3>
-            <p class="card__text">Taste-based social platform for restaurants, cafés and bars. One API-first backend serves both the Flutter app and the Next.js web client.</p>
-            <ul class="tags" aria-label="Tech stack">
-              <li>FastAPI</li><li>PostgreSQL + PostGIS</li><li>Redis</li><li>R2</li>
-            </ul>
-            <!-- TODO: link belli olunca aç
-            <div class="card__links">
-              <a href="NOTES-URL">Architecture notes <span aria-hidden="true">↗</span></a>
-            </div>
-            -->
-          </article>
-
-        </div>
-      </section>
-
-      <!-- ===================================================== PUBLICATIONS -->
-      <section class="section" id="research" aria-labelledby="research-title">
-        <div class="section__header">
-          <h2 class="section__title" id="research-title">Publications</h2>
-          <a class="section__link" href="https://scholar.google.com/citations?user=hQt6mYQAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
-        </div>
-
-        <ol class="pub-list">
-          <li class="pub">
-            <div class="pub__venue"><span>IEEE Access</span></div>
-            <div class="pub__body">
-              <p class="pub__title">Automatic Guitar Tablature Transcription using Dual-Representation Feature Fusion and Cascaded Multi-Task Learning</p>
-              <p class="pub__authors">K. Kesimal, <strong>M. E. Reyhanlıoğlu</strong>, O. Gök, H. Özcan</p>
-              <p class="pub__source"><em>IEEE Access · under review, 2026</em></p>
-              <div class="pub__links">
-                <a href="https://github.com/ErenReyhanlioglu/Guitar-Transcription">Code</a>
-                <a href="https://github.com/ErenReyhanlioglu/Guitar-Transcription-Weights">Weights</a>
-              </div>
-            </div>
-          </li>
-          <li class="pub">
-            <div class="pub__venue"><span>ISAS 2025</span></div>
-            <div class="pub__body">
-              <p class="pub__title">Deep Learning versus Machine Learning for Music Genre Classification: A Dual-Dataset Evaluation</p>
-              <p class="pub__authors">K. Kesimal, <strong>M. E. Reyhanlıoğlu</strong>, H. Özcan</p>
-              <p class="pub__source"><em>9th International Symposium on Innovative Approaches in Smart Technologies (ISAS), 2025</em></p>
-              <div class="pub__links">
-                <!-- TODO: <a href="PDF-URL">PDF</a> <a href="BIBTEX-URL">BibTeX</a> -->
-                <a href="https://github.com/ErenReyhanlioglu/Music-Genre-Classification-App">Code</a>
-              </div>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <!-- ===================================================== CONTACT -->
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <div class="contact__panel">
-          <p class="contact__eyebrow">Get in touch</p>
-          <h2 class="contact__title" id="contact-title">Let’s build something together.</h2>
-          <p class="contact__text">Have a project, an idea or a team I could help? Send me a message. I usually reply within a day and I’m always up for a conversation about ML systems, agents or backend work.</p>
-          <div class="contact__actions">
-            <a class="contact__btn" href="mailto:merenr.oglu@gmail.com">Email me</a>
-            <a class="contact__btn" href="tel:+905551608874">+90 555 160 88 74</a>
-            <a class="contact__btn contact__btn--ghost" href="https://www.linkedin.com/in/eren-reyhanl%C4%B1o%C4%9Flu/">LinkedIn <span aria-hidden="true">↗</span></a>
-          </div>
-          <p class="contact__footer"><a href="mailto:merenr.oglu@gmail.com">merenr.oglu@gmail.com</a> · Türkiye</p>
-        </div>
-      </section>
-
-    </main>
-  </div>
-</body>
+    <!-- Açık tema seçiliyse ilk boyamadan önce uygula (yanıp sönmeyi önler) -->
+    <script>
+      try {
+        if (localStorage.getItem("theme") === "light") document.documentElement.classList.add("light");
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this site.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
