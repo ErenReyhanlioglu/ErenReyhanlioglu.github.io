@@ -63,4 +63,4 @@ Tek seferlik ayar: repo **Settings → Pages → Source: GitHub Actions**.
 - [ ] CV: `public/cv.pdf` → `cvUrl: "/cv.pdf"` (boşken Resume butonu gizli)
 - [ ] Eğitim ve deneyim: `profile.ts` → `education`, `experience`
 - [ ] IEEE makale başlığını teyit et (`publications.ts`)
-- [ ] SeekBind write-up, ISAS PDF / BibTeX linkleri
+- [ ] SeekBind write-up

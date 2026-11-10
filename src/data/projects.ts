@@ -45,6 +45,7 @@ export const projects: Project[] = [
     links: [
       { label: "Code", href: "https://github.com/ErenReyhanlioglu/Guitar-Transcription" },
       { label: "Weights", href: "https://github.com/ErenReyhanlioglu/Guitar-Transcription-Weights" },
+      { label: "Dataset", href: "https://huggingface.co/datasets/MehmetErenn0/guitarset-enriched-npz" },
     ],
   },
   {
