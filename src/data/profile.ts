@@ -18,8 +18,8 @@ export const profile: Profile = {
   cvUrl: "",
   // TODO: public/images/profile.webp ekleyince "/images/profile.webp" yap
   photoUrl: "",
-  // TODO: formspree.io'da form oluşturup ID'sini yaz
-  formspreeId: "",
+  // https://formspree.io/f/mrpqzeoz
+  formspreeId: "mrpqzeoz",
 
   // TODO: doldurunca About bölümünde otomatik görünür
   education: [],

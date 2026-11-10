@@ -2,8 +2,7 @@
 
 Kişisel portföy sitesi: https://erenreyhanlioglu.github.io
 
-React 19 + TypeScript + Vite + styled-components. Tasarım
-[CodeVinayak/Portfolio-v2](https://github.com/CodeVinayak/Portfolio-v2) temel alınarak yapıldı.
+React 19 + TypeScript + Vite + styled-components.
 
 ## Komutlar
 
@@ -60,8 +59,6 @@ Tek seferlik ayar: repo **Settings → Pages → Source: GitHub Actions**.
 
 `src/data/` içinde `TODO` diye aranınca hepsi çıkar:
 
-- [ ] İletişim formu: [formspree.io](https://formspree.io)'da form oluştur, ID'yi `profile.ts` → `formspreeId`'ye yaz
-      (boşken form yerine "Send me an email" butonu görünür)
 - [ ] Fotoğraf: `public/images/profile.webp` → `photoUrl: "/images/profile.webp"`
 - [ ] CV: `public/cv.pdf` → `cvUrl: "/cv.pdf"` (boşken Resume butonu gizli)
 - [ ] Eğitim ve deneyim: `profile.ts` → `education`, `experience`
