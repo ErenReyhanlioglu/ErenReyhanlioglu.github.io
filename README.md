@@ -47,10 +47,9 @@ Sonra http://localhost:8000 adresini aç.
 
 `index.html` içinde `TODO` diye aranınca hepsi çıkar:
 
-- [ ] Google Scholar linki
 - [ ] FraudLens canlı demo linki
 - [ ] SeekBind write-up linki
 - [ ] Obur mimari notları linki
 - [ ] TraceMail ekran görüntüsü → `assets/img/projects/tracemail.webp`
-- [ ] ISAS 2025 makale başlığı, konferansın tam adı, PDF / BibTeX
+- [ ] ISAS 2025 makalesi için PDF / BibTeX linkleri
 - [ ] Paylaşım görseli (`og:image`, 1200×630)
