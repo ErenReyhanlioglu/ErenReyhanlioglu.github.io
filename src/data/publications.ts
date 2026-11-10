@@ -21,9 +21,6 @@ export const publications: Publication[] = [
     authors: ["K. Kesimal", "M. E. Reyhanlıoğlu", "H. Özcan"],
     self: "M. E. Reyhanlıoğlu",
     source: "9th International Symposium on Innovative Approaches in Smart Technologies (ISAS), 2025",
-    links: [
-      { label: "Paper", href: "https://ieeexplore.ieee.org/document/11101752/" },
-      { label: "Code", href: "https://github.com/ErenReyhanlioglu/Music-Genre-Classification-App" },
-    ],
+    links: [{ label: "Paper", href: "https://ieeexplore.ieee.org/document/11101752/" }],
   },
 ];
