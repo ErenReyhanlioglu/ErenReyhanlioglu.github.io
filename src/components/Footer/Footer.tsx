@@ -15,12 +15,6 @@ export function Footer() {
         <p>
           Built with React, TypeScript, and Vite <img src={reactIcon} alt="" />
         </p>
-        <p className="design-credit">
-          Design based on{" "}
-          <a href="https://github.com/CodeVinayak/Portfolio-v2" target="_blank" rel="noreferrer">
-            Vinayak Singh's Portfolio-v2
-          </a>
-        </p>
       </div>
       <SocialLinks />
     </Container>

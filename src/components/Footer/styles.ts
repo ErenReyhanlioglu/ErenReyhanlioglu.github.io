@@ -28,16 +28,6 @@ export const Container = styled.footer`
     }
   }
 
-  .design-credit {
-    margin-top: 0.6rem;
-    font-size: 1.2rem;
-    opacity: 0.6;
-
-    a {
-      text-decoration: underline;
-    }
-  }
-
   .social-media {
     display: flex;
     align-items: center;
