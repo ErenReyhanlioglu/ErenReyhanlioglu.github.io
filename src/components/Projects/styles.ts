@@ -42,6 +42,10 @@ export const Container = styled.section`
       justify-content: space-between;
       margin-bottom: 3.6rem;
 
+      > svg {
+        flex-shrink: 0;
+      }
+
       .project-links {
         display: flex;
         align-items: center;

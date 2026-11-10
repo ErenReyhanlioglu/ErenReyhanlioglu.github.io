@@ -1,8 +1,15 @@
 import type { Project } from "../../data/types";
 import githubIcon from "../../assets/icons/social/github.svg";
+import huggingfaceIcon from "../../assets/icons/social/huggingface.svg";
 import externalLink from "../../assets/icons/social/external-link.svg";
 
-const isGitHub = (href: string) => new URL(href).hostname === "github.com";
+// Link ikonu adrese göre seçilir: github.com → GitHub, huggingface.co → Hugging Face, diğerleri → dış link
+function linkIcon(href: string) {
+  const host = new URL(href).hostname;
+  if (host === "github.com") return githubIcon;
+  if (host === "huggingface.co") return huggingfaceIcon;
+  return externalLink;
+}
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
@@ -14,7 +21,7 @@ export function ProjectCard({ project }: { project: Project }) {
         <div className="project-links">
           {project.links.map((link) => (
             <a key={link.href} href={link.href} target="_blank" rel="noreferrer" aria-label={`${project.title}: ${link.label}`} title={link.label}>
-              <img src={isGitHub(link.href) ? githubIcon : externalLink} alt="" />
+              <img src={linkIcon(link.href)} alt="" />
             </a>
           ))}
         </div>

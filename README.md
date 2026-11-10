@@ -50,7 +50,7 @@ Tek seferlik ayar: repo **Settings → Pages → Source: GitHub Actions**.
 ## Sık yapılan işler
 
 - **Proje eklemek / düzenlemek:** `src/data/projects.ts` içine bir obje ekle.
-  İlk link ana linktir; GitHub linkleri GitHub ikonuyla, diğerleri dış link ikonuyla gösterilir.
+  İlk link ana linktir; GitHub ve Hugging Face linkleri kendi ikonlarıyla, diğerleri dış link ikonuyla gösterilir.
 - **Yayın eklemek:** `src/data/publications.ts`.
 - **Beceri ikonu eklemek:** [devicon.dev](https://devicon.dev)'den SVG'yi `src/assets/icons/tech/` altına koy, `src/data/skills.ts`'e ekle.
 - **Renkleri değiştirmek:** `src/styles/global.ts` içindeki `:root` değişkenleri.
