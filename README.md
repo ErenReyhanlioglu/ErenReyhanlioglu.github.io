@@ -47,7 +47,7 @@ Sonra http://localhost:8000 adresini aç.
 
 `index.html` içinde `TODO` diye aranınca hepsi çıkar:
 
-- [ ] LinkedIn, ORCID, Hugging Face, Google Scholar linkleri
+- [ ] Google Scholar linki
 - [ ] FraudLens canlı demo linki
 - [ ] SeekBind write-up linki
 - [ ] Obur mimari notları linki
