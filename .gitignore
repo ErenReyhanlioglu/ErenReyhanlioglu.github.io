@@ -3,3 +3,6 @@ Thumbs.db
 .vscode/
 .venv/
 node_modules/
+
+# Design mockups (local only)
+mock-design/
